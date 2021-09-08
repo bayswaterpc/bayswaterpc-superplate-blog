@@ -1,0 +1,37 @@
+trigger:
+    - main
+    - master
+
+pr:
+    - main
+    - master
+
+pool:
+    vmImage: ubuntu-latest
+
+jobs:
+    - job:
+      steps:
+          - checkout: self
+            persistCredentials: true
+
+          - task: NodeTool@0
+            inputs:
+                versionSpec: "14.x"
+            displayName: "Setup node env"
+
+          - script: |
+                yarn install
+            displayName: "Install dependencies"
+
+          - script: |
+                yarn lint
+            displayName: "Run lint"
+
+          - script: |
+                yarn test
+            displayName: "Run tests"
+
+          - script: |
+                yarn cypress:test
+            displayName: "Run e2e tests"
