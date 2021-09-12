@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="92.01844mm"
+   height="13.132696mm"
+   viewBox="0 0 92.01844 13.132696"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img"
+   >
+   
+  <defs
+     id="defs2">
+    <rect
+       x="110.63295"
+       y="95.791946"
+       width="590.94183"
+       height="106.5854"
+       id="rect24211" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-30.532502,-27.765416)">
+    <text
+       fill="currentcolor"
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text24209"
+       style="font-style:normal;font-weight:normal;font-size:53.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect24211);stroke:none"><tspan
+         x="110.63281"
+         y="144.21097"
+         id="tspan67390"><tspan
+           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'"
+           id="tspan67388">Bayswater PC</tspan></tspan></text>
+  </g>
+</svg>
