@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
     return (
         <Center bg="main.100" py={10}>
             <a
-                href="https://github.com/pankod"
+                href="https://github.com/bayswaterpc"
                 target="_blank"
                 style={iconStyle}
             >
@@ -30,19 +30,7 @@ export const Footer: React.FC = () => {
                 />
             </a>
             <a
-                href="https://www.youtube.com/channel/UCBGOeQkv1XW3ptryLWlQbAQ"
-                target="_blank"
-                style={iconStyle}
-            >
-                <YoutubeIcon
-                    data-test="icon"
-                    color="white"
-                    width="28"
-                    height="29"
-                />
-            </a>
-            <a
-                href="https://www.linkedin.com/company/pankod-yazilim-ve-danismanlik/"
+                href="https://www.linkedin.com/in/jmwilliams992/"
                 target="_blank"
                 style={iconStyle}
             >
@@ -54,11 +42,23 @@ export const Footer: React.FC = () => {
                 />
             </a>
             <a
-                href="https://www.linkedin.com/company/pankod-yazilim-ve-danismanlik/"
+                href="../../pdf/JacobWilliamsResume.pdf"
                 target="_blank"
                 style={iconStyle}
             >
                 <CvIcon data-test="icon" color="white" width="28" height="32" />
+            </a>
+            <a
+                href="https://www.youtube.com/channel/UC2ALMx4DA6CI8pTTHTeiPQw"
+                target="_blank"
+                style={iconStyle}
+            >
+                <YoutubeIcon
+                    data-test="icon"
+                    color="white"
+                    width="28"
+                    height="29"
+                />
             </a>
         </Center>
     );
