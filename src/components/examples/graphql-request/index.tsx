@@ -19,30 +19,54 @@ export const GraphQLRequestExample: React.FC = () => {
         );
     }
 
-    if (!hasData) return <div>Loading...</div>;
+    if (
+        !hasData ||
+        launches === undefined ||
+        launches.launchesPast === undefined ||
+        launches.launchesPast === null
+    ) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div>
             <div>Last 2 Space-X Launches</div>
             <div>
-                {launches.launchesPast.map((val) => (
-                    <div key={`key-${val.mission_name}`}>
-                        <img src={val.links.mission_patch_small} />
-                        <div>
-                            <h3>{val.mission_name}</h3>
+                {launches.launchesPast.map((val) => {
+                    if (val === null) {
+                        return <div>Null Val...</div>;
+                    }
+                    const mps =
+                        !(val.links === undefined) &&
+                        !(val.links === null) &&
+                        val.links.mission_patch_small
+                            ? val.links.mission_patch_small
+                            : "Missing Mission Patch";
+                    const rn =
+                        !(val.rocket === undefined) &&
+                        !(val.rocket === null) &&
+                        val.rocket.rocket_name
+                            ? val.rocket.rocket_name
+                            : "Missing Rocket Name";
+                    return (
+                        <div key={`key-${val.mission_name}`}>
+                            <img src={mps} />
                             <div>
+                                <h3>{val.mission_name}</h3>
                                 <div>
-                                    <h4>Rocket:</h4>
-                                    <span>{val.rocket.rocket_name}</span>
-                                </div>
-                                <div>
-                                    <h4>Launch year:</h4>
-                                    <span>{val.launch_year}</span>
+                                    <div>
+                                        <h4>Rocket:</h4>
+                                        <span>{rn}</span>
+                                    </div>
+                                    <div>
+                                        <h4>Launch year:</h4>
+                                        <span>{val.launch_year}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
