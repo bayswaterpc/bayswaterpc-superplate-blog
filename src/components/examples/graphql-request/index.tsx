@@ -32,7 +32,7 @@ export const GraphQLRequestExample: React.FC = () => {
         <div>
             <div>Last 2 Space-X Launches</div>
             <div>
-                {launches.launchesPast.map((val) => {
+                {launches.launchesPast.map((val: any) => {
                     if (val === null) {
                         return <div>Null Val...</div>;
                     }
