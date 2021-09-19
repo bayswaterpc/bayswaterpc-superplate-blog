@@ -2,8 +2,8 @@ trigger:
   batch: true
   branches:
     include:
-      - *
-
+      - main
+      - CiCdStaging
 
 pr:
     - main
@@ -11,9 +11,6 @@ pr:
 
 pool:
     vmImage: ubuntu-latest
-
-trigger:  
-    batch: true
 
 jobs:
     - job:
