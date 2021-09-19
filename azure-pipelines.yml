@@ -1,6 +1,9 @@
 trigger:
-    - main
-    - master
+  batch: true
+  branches:
+    include:
+      - *
+
 
 pr:
     - main
