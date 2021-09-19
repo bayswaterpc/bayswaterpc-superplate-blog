@@ -22,6 +22,7 @@ export const Main: React.FC = () => {
                 colorScheme="blue"
                 variant="solid"
                 size="md"
+                data-test="colorModeBtn"
             >
                 Docs
             </Button>
