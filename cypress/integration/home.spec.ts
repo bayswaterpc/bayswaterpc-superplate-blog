@@ -1,10 +1,8 @@
-
 // type definitions for Cypress object "cy"
 /// <reference types="cypress" />
 
 // type definitions for custom commands like "createDefaultTodos"
 /// <reference types="../support" />
-
 
 describe("Homepage", () => {
     beforeEach(() => {
@@ -16,10 +14,8 @@ describe("Homepage", () => {
 
     it("Sel Like Test", () => {
         // https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/testing-dom__tab-handling-links/cypress/integration/tab_handling_anchor_links_spec.js
-        cy.get("[data-testid=btn]")
-            .should("have.length", 1);
-        cy.getBySelLike("btn")
-            .should("have.length", 1);
+        cy.get("[data-testid=btn]").should("have.length", 1);
+        cy.getBySelLike("btn").should("have.length", 1);
     });
 
     it("Should length one", () => {

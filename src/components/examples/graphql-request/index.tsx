@@ -38,14 +38,14 @@ export const GraphQLRequestExample: React.FC = () => {
                     }
                     const mps =
                         !(val.links === undefined) &&
-                            !(val.links === null) &&
-                            val.links.mission_patch_small
+                        !(val.links === null) &&
+                        val.links.mission_patch_small
                             ? val.links.mission_patch_small
                             : "Missing Mission Patch";
                     const rn =
                         !(val.rocket === undefined) &&
-                            !(val.rocket === null) &&
-                            val.rocket.rocket_name
+                        !(val.rocket === null) &&
+                        val.rocket.rocket_name
                             ? val.rocket.rocket_name
                             : "Missing Rocket Name";
                     return (
