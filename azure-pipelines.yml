@@ -9,6 +9,9 @@ pr:
 pool:
     vmImage: ubuntu-latest
 
+trigger:  
+    batch: true
+
 jobs:
     - job:
       steps:
