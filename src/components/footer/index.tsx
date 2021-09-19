@@ -1,5 +1,5 @@
 import React, { CSSProperties } from "react";
-import { Flex, Center } from "@chakra-ui/react";
+import { Center } from "@chakra-ui/react";
 
 import {
     GithubIcon,
@@ -16,9 +16,10 @@ export const Footer: React.FC = () => {
         marginLeft: "0.25rem",
     };
     return (
-        <Center bg="main.100" py={10}>
+        <Center bg="main.100" py={10} data-testid="icons-container">
             <a
                 href="https://github.com/bayswaterpc"
+                data-testid="github-logo"
                 target="_blank"
                 style={iconStyle}
             >
