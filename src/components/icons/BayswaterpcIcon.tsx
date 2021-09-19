@@ -28,9 +28,6 @@ function SvgBayswaterpcIcon(props: React.SVGProps<SVGSVGElement>) {
             >
                 <tspan x={110.633} y={144.211}>
                     <tspan
-                        style={{
-                            InkscapeFontSpecification: "'Century Gothic'",
-                        }}
                         fontFamily="Century Gothic"
                     >
                         {"Bayswater PC"}
