@@ -27,11 +27,7 @@ function SvgBayswaterpcIcon(props: React.SVGProps<SVGSVGElement>) {
                 fontFamily="sans-serif"
             >
                 <tspan x={110.633} y={144.211}>
-                    <tspan
-                        fontFamily="Century Gothic"
-                    >
-                        {"Bayswater PC"}
-                    </tspan>
+                    <tspan fontFamily="Century Gothic">{"Bayswater PC"}</tspan>
                 </tspan>
             </text>
         </svg>
