@@ -32,20 +32,20 @@ export const GraphQLRequestExample: React.FC = () => {
         <div>
             <div>Last 2 Space-X Launches</div>
             <div>
-                {launches.launchesPast.map((val) => {
+                {launches.launchesPast.map((val: any) => {
                     if (val === null) {
                         return <div>Null Val...</div>;
                     }
                     const mps =
                         !(val.links === undefined) &&
-                            !(val.links === null) &&
-                            val.links.mission_patch_small
+                        !(val.links === null) &&
+                        val.links.mission_patch_small
                             ? val.links.mission_patch_small
                             : "Missing Mission Patch";
                     const rn =
                         !(val.rocket === undefined) &&
-                            !(val.rocket === null) &&
-                            val.rocket.rocket_name
+                        !(val.rocket === null) &&
+                        val.rocket.rocket_name
                             ? val.rocket.rocket_name
                             : "Missing Rocket Name";
                     return (

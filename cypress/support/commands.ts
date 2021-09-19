@@ -1,4 +1,3 @@
-
 Cypress.Commands.add("getBySel", (selector, ...args) => {
     console.log("hit when");
     return cy.get(`[data-test=${selector}]`, ...args);
