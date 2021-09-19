@@ -15,6 +15,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: yarn install
+      - name: Create Production Build For Cypress Test
+        run: yarn build
       - name: Run Lint
         run: yarn lint
       - name: Run Jest Test
