@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 export const GET_LAUNCHES = gql`
-    query GetLaunches($limit: Int) {
+    query GetLaunches2($limit: Int) {
         launchesPast(limit: $limit) {
             mission_name
             links {

@@ -2,12 +2,12 @@ import React from "react";
 import { useQuery } from "@apollo/client";
 
 import { GET_LAUNCHES } from "./graphql";
-import { GetLaunches, GetLaunchesVariables } from "@graphqlTypes/GetLaunches";
+import { GetLaunches2, GetLaunches2Variables } from "@graphqlTypes/GetLaunches2";
 
 export const GraphQLExample: React.FC = () => {
     const { data, loading, error } = useQuery<
-        GetLaunches,
-        GetLaunchesVariables
+        GetLaunches2,
+        GetLaunches2Variables
     >(GET_LAUNCHES, {
         variables: { limit: 2 },
     });
@@ -21,7 +21,7 @@ export const GraphQLExample: React.FC = () => {
         <div>
             <div>Last 2 Space-X Launches</div>
             <div>
-                {data.launchesPast.map((val) => {
+                {data.launchesPast.map((val: any) => {
                     if (!val) return <p>Null Val</p>;
                     if (!val.links) return <p>Null Links</p>;
                     if (!val.links.mission_patch_small)
