@@ -9,16 +9,16 @@ describe("Main component testing with testing-library", () => {
         expect(component).toBeTruthy();
     });
 
-    it("renders texts successfuly", () => {
-        const { getByText } = render(<Main />);
+    // it("renders texts successfuly", () => {
+    //     const { getByText } = render(<Main />);
 
-        getByText("superplate");
-        getByText("The frontend boilerplate with superpowers!");
-    });
+    //     getByText("superplate");
+    //     getByText("The frontend boilerplate with superpowers!");
+    // });
 
-    it("renders button successfuly", () => {
-        const { getByText } = render(<Main />);
+    // it("renders button successfuly", () => {
+    //     const { getByText } = render(<Main />);
 
-        getByText("Docs");
-    });
+    //     getByText("Docs");
+    // });
 });
