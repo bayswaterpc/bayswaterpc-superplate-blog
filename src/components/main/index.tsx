@@ -12,10 +12,10 @@ export const Main: React.FC = () => {
                 data-test="main-heading"
                 style={{ fontSize: theme.fontSizes["5xl"] }}
             >
-                superplate
+                Jacob Williams and Bayswater PC
             </h1>
             <p style={{ fontSize: theme.fontSizes["lg"] }}>
-                The frontend boilerplate with superpowers!
+                Delightful Fullstack Solutions And Media
             </p>
             <Button
                 onClick={toggleColorMode}

@@ -9,7 +9,8 @@ describe("Homepage", () => {
         cy.visit("/");
     });
     it("Brings header", () => {
-        cy.getBySel("main-heading").should("contain.text", "superplate");
+        //cy.getBySel("main-heading").should("contain.text", "superplate");
+        cy.getBySel("main-heading").should("have.length", 1);
     });
 
     it("Sel Like Test", () => {
