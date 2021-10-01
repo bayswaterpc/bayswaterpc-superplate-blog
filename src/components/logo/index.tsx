@@ -1,13 +1,8 @@
 import React from "react";
-import { BayswaterpcIcon } from "@components/icons";
+import { JwatpbpcIcon } from "@components/icons";
 
 export const Logo: React.FC = () => {
     return (
-        <BayswaterpcIcon
-            data-test="icon"
-            color="white"
-            width="190"
-            height="100"
-        />
+        <JwatpbpcIcon data-test="icon" color="white" width="190" height="100" />
     );
 };

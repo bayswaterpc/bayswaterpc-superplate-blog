@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "@definitions/chakra/theme";
@@ -9,10 +10,19 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 import { RootStoreProvider } from "@mobx";
 import { appWithTranslation } from "@i18n";
+import mailgo from "mailgo";
+
+const mailgoConfig = {
+    dark: true,
+};
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     const apolloClient = initializeApollo();
     const queryClient = new QueryClient();
+    useEffect(() => {
+        mailgo(mailgoConfig);
+    }, []);
+
     return (
         <ChakraProvider theme={theme}>
             <ApolloProvider client={apolloClient}>

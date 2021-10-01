@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
                 />
             </a>
             <a
-                href="../../pdf/JacobWilliamsResume.pdf"
+                href="../../pdf/Jacob_Williams_Resume.pdf"
                 target="_blank"
                 style={iconStyle}
             >

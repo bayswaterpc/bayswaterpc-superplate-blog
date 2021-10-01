@@ -6,7 +6,7 @@ interface YoutubeVideoMeta {
     embedId: string;
 }
 
-export const Videos = (videos: YoutubeVideoMeta[]) => {
+export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
     return (
         <SimpleGrid columns={3} spacing={4} px={2} py={2}>
             {videos.map((video) => (

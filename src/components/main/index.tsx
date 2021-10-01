@@ -1,8 +1,6 @@
 import React from "react";
 import { Box, useTheme, useColorMode } from "@chakra-ui/react";
 
-import { Button } from "@components";
-
 export const Main: React.FC = () => {
     const theme = useTheme();
     const { colorMode, toggleColorMode } = useColorMode();
@@ -12,20 +10,11 @@ export const Main: React.FC = () => {
                 data-test="main-heading"
                 style={{ fontSize: theme.fontSizes["5xl"] }}
             >
-                Jacob Williams and Bayswater PC
+                Jacob Williams @ Bayswater PC
             </h1>
             <p style={{ fontSize: theme.fontSizes["lg"] }}>
                 Delightful Fullstack Solutions And Media
             </p>
-            <Button
-                onClick={toggleColorMode}
-                colorScheme="blue"
-                variant="solid"
-                size="md"
-                data-test="colorModeBtn"
-            >
-                Docs
-            </Button>
         </Box>
     );
 };

@@ -9,7 +9,7 @@ describe("Footer component testing with testing-library", () => {
         expect(component).toBeTruthy();
     });
 
-    it("renders pankod logo and directed to the correct url", () => {
+    it("renders bayswater logo and directed to the correct url", () => {
         const { getByTestId } = render(<Footer />);
 
         expect(getByTestId("github-logo").getAttribute("href")).toStrictEqual(

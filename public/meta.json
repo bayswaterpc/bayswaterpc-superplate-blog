@@ -12,16 +12,6 @@
             "url": "https://sass-lang.com/documentation"
         },
         {
-            "name": "Fetch",
-            "description": "Next.js has a built-in polyfill for the fetch API. You don't need to worry about using it on either server or client side.",
-            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
-        },
-        {
-            "name": "SVGR",
-            "description": "Transform SVGs into React components.",
-            "url": "https://react-svgr.com/docs/getting-started/"
-        },
-        {
             "name": "Environment Variables",
             "description": "Use environment variables in your next.js project for server side, client or both.",
             "url": "https://github.com/vercel/next.js/tree/canary/examples/environment-variables"
@@ -30,31 +20,6 @@
             "name": "Bundle Analyzer",
             "description": "Use webpack-bundle-analyzer in your Next.js project. Visualize size of webpack output files with an interactive zoomable treemap.",
             "url": "https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer"
-        },
-        {
-            "name": "Apollo GraphQL",
-            "description": "Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.",
-            "url": "https://www.apollographql.com/docs/react/"
-        },
-        {
-            "name": "graphql-request",
-            "description": "Minimal GraphQL client supporting Node and browsers for scripts or simple apps",
-            "url": "https://github.com/prisma-labs/graphql-request"
-        },
-        {
-            "name": "React Query",
-            "description": "Hooks for fetching, caching and updating asynchronous data in React.",
-            "url": "https://react-query.tanstack.com/overview"
-        },
-        {
-            "name": "MobX",
-            "description": "MobX is unopinionated and allows you to manage your application state outside of any UI framework.",
-            "url": "https://mobx.js.org/README.html"
-        },
-        {
-            "name": "MobX State Tree",
-            "description": "MobX-State-Tree (also known as MST) is a state container system built on MobX, a functional reactive state library.",
-            "url": "https://mobx-state-tree.js.org/intro/welcome"
         },
         {
             "name": "next-i18next",
@@ -70,11 +35,6 @@
             "name": "Prettier",
             "description": "An opinionated code formatter; Supports many languages; Integrates with most editors.",
             "url": "https://prettier.io/docs/en/index.html"
-        },
-        {
-            "name": "Testing Library",
-            "description": "The React Testing Library is a very light-weight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils.",
-            "url": "https://testing-library.com/docs/"
         },
         {
             "name": "Cypress",
