@@ -1,10 +1,9 @@
 import { render } from "@test";
-
-import { Main } from "./index";
+import { MainLandingCards } from "./index";
 
 describe("Main component testing with testing-library", () => {
     it("renders without crashing", () => {
-        const component = render(<Main />);
+        const component = render(<MainLandingCards />);
 
         expect(component).toBeTruthy();
     });

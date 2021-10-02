@@ -3,6 +3,6 @@ import { JwatpbpcIcon } from "@components/icons";
 
 export const Logo: React.FC = () => {
     return (
-        <JwatpbpcIcon data-test="icon" color="white" width="190" height="100" />
+        <JwatpbpcIcon data-test="icon" color="white" width="200" height="80" />
     );
 };

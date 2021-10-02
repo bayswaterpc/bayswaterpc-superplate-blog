@@ -1,7 +1,6 @@
 import React from "react";
 import {
     Layout,
-    ChakraNextImage,
     ToolChestList,
     OpenSourceSection,
     CarlsonSoftwareSection,

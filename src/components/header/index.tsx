@@ -6,8 +6,10 @@ import {
     useColorMode,
     Flex,
     Spacer,
+    Box,
+    Link,
 } from "@chakra-ui/react";
-import Link from "next/link";
+import NextLink from "next/link";
 
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
@@ -30,14 +32,13 @@ const LeftJustified = () => {
 export const Header = () => {
     return (
         <Center bg="header.100" data-testid="container">
-            <Link href={`/`}>
-                <IconButton
-                    variant="link"
-                    aria-label="Go Home"
-                    icon={<Logo />}
-                    ml={5}
-                />
-            </Link>
+            <NextLink href={"https://github.com/bayswaterpc"} passHref>
+                <Link href={`/`}>
+                    <Box>
+                        <Logo />
+                    </Box>
+                </Link>
+            </NextLink>
             <Spacer />
             <LeftJustified />
         </Center>

@@ -1,15 +1,11 @@
-import { ReactElement } from "react";
 import {
     Box as Container,
     SimpleGrid,
-    Icon,
     Text,
     Stack,
-    Flex,
     LinkOverlay,
     LinkBox,
     Center,
-    Image,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { ChakraNextImage } from "@components";
@@ -48,7 +44,7 @@ const Feature = ({ title, text, imageUrl, linkOverlayUrl }: FeatureProps) => {
     );
 };
 
-export function SimpleThreeColumns() {
+export function MainLandingCards() {
     return (
         <Center>
             <Container maxW={1200} paddingBottom={10}>

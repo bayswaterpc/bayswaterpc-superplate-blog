@@ -23,7 +23,7 @@ function SvgBayswaterpcIcon(props: React.SVGProps<SVGSVGElement>) {
                 fill="currentcolor"
                 transform="matrix(.26458 0 0 .26458 -30.533 -27.765)"
                 fontWeight={400}
-                fontSize={53.333}
+                fontSize={60}
                 fontFamily="sans-serif"
             >
                 <tspan x={110.633} y={144.211}>

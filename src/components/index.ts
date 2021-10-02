@@ -7,7 +7,7 @@ export { Footer } from "./footer";
 export { YoutubeVideos } from "./YoutubeVideos";
 export { Layout } from "./layout";
 export { CallToActionWithAnnotation } from "./CallToAction";
-export { SimpleThreeColumns } from "./SimpleThreeColumns";
+export { MainLandingCards } from "./MainLandingCards";
 export { ChakraNextImage } from "./ChakraNextImage";
 export { ToolChestList } from "./ToolChestList";
 export { OpenSourceSection } from "./OpenSourceSection";

@@ -2,7 +2,7 @@ import React from "react";
 import {
     Layout,
     CallToActionWithAnnotation,
-    SimpleThreeColumns,
+    MainLandingCards,
 } from "@components";
 import { SimpleGrid, Spacer, Center, Box } from "@chakra-ui/react";
 
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     return (
         <Layout>
             <CallToActionWithAnnotation />
-            <SimpleThreeColumns />
+            <MainLandingCards />
         </Layout>
     );
 };

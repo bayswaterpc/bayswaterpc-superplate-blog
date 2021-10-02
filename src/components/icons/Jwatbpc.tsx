@@ -26,10 +26,10 @@ function SvgJwatbpc(props: React.SVGProps<SVGSVGElement>) {
                 fill="currentcolor"
                 transform="matrix(.79355 0 0 .8302 -13.617 -31.604)"
                 fontWeight={600}
-                fontSize={25}
+                fontSize={30}
                 fontFamily="Nirmala UI"
             >
-                <tspan x={21.859} y={74.604}>
+                <tspan x={50} y={74.604}>
                     {"JW@BPC"}
                 </tspan>
             </text>

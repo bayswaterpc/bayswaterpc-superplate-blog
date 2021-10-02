@@ -10,7 +10,7 @@ const ChakraNextUnwrappedImage = chakra(NextImage, {
             "alt",
             "quality",
             "placeholder",
-            "blurDataURL",
+            "blurdataurl",
             "loader ",
         ].includes(prop),
 });
@@ -39,6 +39,7 @@ const toBase64 = (str: string) =>
         : window.btoa(str);
 
 export declare type ChakraNextImageProps = ImageProps & BoxProps;
+
 export const ChakraNextImage = (props: ChakraNextImageProps) => {
     const { src, alt, width, quality, height, ...rest } = props;
     return (
@@ -51,7 +52,7 @@ export const ChakraNextImage = (props: ChakraNextImageProps) => {
                 quality={quality}
                 height={height}
                 placeholder="blur"
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
+                blurdataurl={`data:image/svg+xml;base64,${toBase64(
                     shimmer(700, 475),
                 )}`}
                 src={src}

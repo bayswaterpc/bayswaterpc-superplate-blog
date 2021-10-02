@@ -1,17 +1,13 @@
 import React from "react";
-import { Layout, ChakraNextImage } from "@components";
 import {
     Box,
-    Text,
     Heading,
     SimpleGrid,
     ListItem,
     UnorderedList,
     Container,
     Center,
-    Link,
 } from "@chakra-ui/react";
-import NextLink from "next/link";
 
 const FrontEndList = () => {
     return (
