@@ -32,8 +32,8 @@ const LeftJustified = () => {
 export const Header = () => {
     return (
         <Center bg="header.100" data-testid="container">
-            <NextLink href={"https://github.com/bayswaterpc"} passHref>
-                <Link href={`/`}>
+            <NextLink href={"/"} passHref>
+                <Link>
                     <Box>
                         <Logo />
                     </Box>
