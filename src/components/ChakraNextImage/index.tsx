@@ -43,7 +43,12 @@ export declare type ChakraNextImageProps = ImageProps & BoxProps;
 export const ChakraNextImage = (props: ChakraNextImageProps) => {
     const { src, alt, width, quality, height, ...rest } = props;
     return (
-        <Box pos="relative" cursor="pointer" className="group" {...rest}>
+        <Box
+            pos="relative"
+            cursor="pointer"
+            className="chakraNextImage"
+            {...rest}
+        >
             <ChakraNextUnwrappedImage
                 w="auto"
                 h="auto"

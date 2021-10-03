@@ -75,10 +75,12 @@ const CloudList = () => {
 
 export const ToolChestList = () => {
     return (
-        <Box>
-            <Heading as="h1" size="3xl" isTruncated>
-                Tool Chest
-            </Heading>
+        <Box m={5}>
+            <Center>
+                <Heading as="h1" size="3xl" isTruncated>
+                    Tool Chest
+                </Heading>
+            </Center>
             <Center>
                 <Container maxW={1200} paddingBottom={10}>
                     <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>

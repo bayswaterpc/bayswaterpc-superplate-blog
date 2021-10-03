@@ -5,15 +5,16 @@ import NextLink from "next/link";
 
 export const OpenSourceSection = () => {
     return (
-        <Box>
-            <NextLink href={"https://github.com/bayswaterpc"} passHref>
-                <Link>
-                    <Heading as="h1" size="3xl" isTruncated>
-                        Open Source
-                    </Heading>
-                </Link>
-            </NextLink>
-            <Text m={5}>Exploring Rust</Text>
+        <Box m={5}>
+            <Center>
+                <NextLink href={"https://github.com/bayswaterpc"} passHref>
+                    <Link>
+                        <Heading as="h1" size="3xl" isTruncated>
+                            Open Source
+                        </Heading>
+                    </Link>
+                </NextLink>
+            </Center>
             <NextLink
                 href={
                     "https://github.com/bayswaterpc/bevy_egui_paneled_playground"
@@ -21,10 +22,10 @@ export const OpenSourceSection = () => {
                 passHref
             >
                 <Link>
-                    <Heading m={5}>Bevy Egui Playground</Heading>
+                    <Heading>Bevy Egui Playground</Heading>
                 </Link>
             </NextLink>
-            <Text m={5}>
+            <Text>
                 A demo of the multiple Bevy Egui scenes interacting with a Egui
                 dialog overlay. Perfect boilerplate for advanced Bevy-Egui
                 projects.
@@ -42,10 +43,10 @@ export const OpenSourceSection = () => {
                 passHref
             >
                 <Link>
-                    <Heading m={5}>Warboss Waaghit</Heading>
+                    <Heading>Warboss Waaghit</Heading>
                 </Link>
             </NextLink>
-            <Text m={5}>
+            <Text>
                 A Widget withmore Waagh. Speeds up the army setup selection
                 process in Total War Warhammer 2. Adds search and win loss
                 tracking.
@@ -58,6 +59,49 @@ export const OpenSourceSection = () => {
                     width={1243 / 2}
                 />
             </Center>
+
+            <NextLink
+                href={"https://github.com/JulianRuiseco/RustyABOS"}
+                passHref
+            >
+                <Link>
+                    <Heading>Rusty ABOS</Heading>
+                </Link>
+            </NextLink>
+
+            <Text>
+                A Rust implimentation of A Rust implementation of{" "}
+                <NextLink
+                    href={
+                        "https://www.semanticscholar.org/paper/Art-of-Surface-Interpolation-Dressler/6e33e113f968deb9c07f227333525c59b89f0b26"
+                    }
+                    passHref
+                >
+                    <Link color="teal.500" href="#">
+                        Averaging Based on Smoothing
+                    </Link>
+                </NextLink>
+                {". "}
+                This algorithm is useful for generating realistic surfaces from
+                data with sparse and noisy readings.
+            </Text>
+
+            <NextLink
+                href={
+                    "https://github.com/bayswaterpc/bayswaterpc-superplate-blog"
+                }
+                passHref
+            >
+                <Link>
+                    <Heading>This Site</Heading>
+                </Link>
+            </NextLink>
+
+            <Text>
+                The code for this website is open sourced MIT licensed. See how
+                to build and deploy a fully featured media rich website with
+                Typescript, React, Chakra UI, and Vercel.
+            </Text>
         </Box>
     );
 };
