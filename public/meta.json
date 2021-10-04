@@ -51,5 +51,85 @@
             "description": "Azure Pipelines automatically builds and tests code projects to make them available to others. It works with just about any language or project type. Azure Pipelines combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.",
             "url": "https://docs.microsoft.com/en-us/azure/devops/pipelines/"
         }
+    ],
+    "music_videos": [
+        {
+            "title": "Zara zara / Vaseegara | Ajin Tom ft. Lakshmi Pradeep & Aashima Singh",
+            "embedId": "pkECklCnNOU"
+        },
+        {
+            "title": "Nanniyode Njan Sthuthi Padidum",
+            "embedId": "7n7pgVx7v00"
+        }
+    ],
+    "skyfarming_videos": [
+        {
+            "title": "Ottawa Spring Drones and Tulips",
+            "embedId": "pROes3xqCRA"
+        },
+        {
+            "title": "Rainbows, Sunsets, and Snow",
+            "embedId": "AV6cR8oSfkk"
+        },
+        {
+            "title": "Ottawa SkiesTo Relax To",
+            "embedId": "IutFxxvUfpw"
+        }
+    ],
+    "photoGallery": [
+        {
+            "src": "/images/photos/botanicalNightPhoto.JPG",
+            "alt": "Montreal Botanical Gardens",
+            "width": 2080,
+            "height": 3336
+        },
+        {
+            "src": "/images/photos/chessPortrait.JPG",
+            "alt": "Queens Gambit Portrait",
+            "width": 882,
+            "height": 1125
+        },
+        {
+            "src": "/images/photos/Chicago.jpg",
+            "alt": "Chicago Skyline",
+            "width": 2048,
+            "height": 1356
+        },
+        {
+            "src": "/images/photos/duomo.JPG",
+            "alt": "Duomo di Milano",
+            "width": 1,
+            "height": 1
+        },
+        {
+            "src": "/images/photos/duomoPart2.JPG",
+            "alt": "Duomo di Milano Black And White",
+            "width": 1,
+            "height": 1
+        },
+        {
+            "src": "/images/photos/FallChicago.jpg",
+            "alt": "Chicago in Fall",
+            "width": 1900,
+            "height": 1000
+        },
+        {
+            "src": "/images/photos/sunset.jpg",
+            "alt": "Sunset",
+            "width": 2784,
+            "height": 2348
+        },
+        {
+            "src": "/images/photos/winterBog.jpg",
+            "alt": "Winter Bog",
+            "width": 2048,
+            "height": 1240
+        },
+        {
+            "src": "/images/photos/yellowTulips.JPG",
+            "alt": "Yellow Tulips",
+            "width": 2832,
+            "height": 4240
+        }
     ]
 }

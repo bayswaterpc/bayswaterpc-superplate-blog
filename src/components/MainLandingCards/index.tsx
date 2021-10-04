@@ -54,7 +54,7 @@ export function MainLandingCards() {
                     <Feature
                         title={"Tech"}
                         text={
-                            "See past projects and tech I use to deliver performant user expereinces."
+                            "Past projects and tech I use to deliver performant user expereinces."
                         }
                         imageUrl="/images/technologies3.JPG"
                         linkOverlayUrl="/technologies"
@@ -63,7 +63,7 @@ export function MainLandingCards() {
                     <Feature
                         title={"Media"}
                         text={
-                            "Videography, Photography, Timelapses, and Music Videos Oh My!"
+                            "Videography, photography, timelapses, and music videos I've produced and worked on"
                         }
                         imageUrl={"/images/overheadBridge2.png"}
                         linkOverlayUrl="/media"

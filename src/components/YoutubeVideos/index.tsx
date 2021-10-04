@@ -12,8 +12,9 @@ interface YoutubeVideoMeta {
     embedId: string;
 }
 
-const maxContainderWidth = 3 * 480 + 50;
-const minContainerWidth = 480;
+const minContainerWidth = 450;
+const maxContainderWidth = 3 * minContainerWidth + 50;
+
 export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
     return (
         <Center>
@@ -24,13 +25,13 @@ export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
                     px={1}
                     py={1}
                 >
-                    {videos.map((video) => (
-                        <Box>
-                            <AspectRatio
-                                ratio={16 / 9}
-                                key={video.embedId}
-                                minW={minContainerWidth}
-                            >
+                    {videos.map((video, ii) => (
+                        <Box
+                            minW={minContainerWidth}
+                            maxWidth={minContainerWidth * 1.5}
+                            key={`video.embedId_${ii}`}
+                        >
+                            <AspectRatio ratio={16 / 9} key={video.embedId}>
                                 <iframe
                                     data-testid="videoIframe"
                                     src={`https://www.youtube.com/embed/${video.embedId}`}
