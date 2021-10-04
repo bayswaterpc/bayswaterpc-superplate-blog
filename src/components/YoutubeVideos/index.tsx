@@ -1,24 +1,19 @@
 import React from "react";
-import {
-    SimpleGrid,
-    AspectRatio,
-    Container,
-    Center,
-    Box,
-} from "@chakra-ui/react";
+import { SimpleGrid, AspectRatio, Center, Box } from "@chakra-ui/react";
 
 interface YoutubeVideoMeta {
     title: string;
     embedId: string;
 }
 
-const minContainerWidth = 450;
-const maxContainderWidth = 3 * minContainerWidth + 50;
+const maxExpansionFactor = 20;
+const minContainerWidth = 400;
+const maxContainderWidth = maxExpansionFactor * minContainerWidth + 10;
 
 export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
     return (
         <Center>
-            <Container maxW={maxContainderWidth} minW={minContainerWidth}>
+            <Box maxW={maxContainderWidth} minW={minContainerWidth}>
                 <SimpleGrid
                     columns={{ base: 1, md: 3 }}
                     spacing={1}
@@ -27,8 +22,8 @@ export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
                 >
                     {videos.map((video, ii) => (
                         <Box
-                            minW={minContainerWidth}
-                            maxWidth={minContainerWidth * 1.5}
+                            minW={minContainerWidth - 10}
+                            maxWidth={maxContainderWidth / 3}
                             key={`video.embedId_${ii}`}
                         >
                             <AspectRatio ratio={16 / 9} key={video.embedId}>
@@ -44,7 +39,7 @@ export const YoutubeVideos = (videos: YoutubeVideoMeta[]) => {
                         </Box>
                     ))}
                 </SimpleGrid>
-            </Container>
+            </Box>
         </Center>
     );
 };

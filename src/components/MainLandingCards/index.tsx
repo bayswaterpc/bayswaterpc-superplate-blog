@@ -1,12 +1,11 @@
 import {
-    Box as Container,
+    Container,
     SimpleGrid,
     Text,
     Stack,
     LinkOverlay,
     LinkBox,
     Center,
-    Box,
     Heading,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
