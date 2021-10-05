@@ -50,7 +50,7 @@ export function CallToActionWithAnnotation() {
                         alignSelf={"center"}
                         position={"relative"}
                     >
-                        <a href="mailto:bayswaterpc@gmail.com">
+                        <a href="mailto:bpc@bayswaterpc.com">
                             <Button
                                 colorScheme={"green"}
                                 bg={"green.400"}
