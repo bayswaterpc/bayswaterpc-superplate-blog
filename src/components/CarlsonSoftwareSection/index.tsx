@@ -23,7 +23,12 @@ export const CarlsonSoftwareSection = () => {
             <Center>
                 <NextLink href={"https://www.carlsonsw.com/"} passHref>
                     <Link>
-                        <Heading as="h1" size="3xl" isTruncated>
+                        <Heading
+                            as="h1"
+                            size="3xl"
+                            paddingBottom={5}
+                            isTruncated
+                        >
                             Carlson Software
                         </Heading>
                     </Link>
@@ -111,8 +116,8 @@ export const CarlsonSoftwareSection = () => {
             </Container>
             <Heading>Carlson Office Mining</Heading>
             <Text>
-                Use QT and C++ geostats engines to deliver Dynamic Mine Planning
-                and CAD tooling
+                Use QT and C++ geostatistics engines to deliver Dynamic Mine
+                Planning and CAD tooling
             </Text>
             <Container maxW={maxContainerWidth} paddingBottom={10}>
                 <SimpleGrid

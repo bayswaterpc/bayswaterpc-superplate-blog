@@ -7,16 +7,16 @@ import {
 } from "@components";
 import { Box } from "@chakra-ui/react";
 
-const Technologies: React.FC = () => {
+const TechPage: React.FC = () => {
     return (
         <Layout>
             <Box m={5}>
-                <OpenSourceSection />
                 <CarlsonSoftwareSection />
+                <OpenSourceSection />
                 <ToolChestList />
             </Box>
         </Layout>
     );
 };
 
-export default Technologies;
+export default TechPage;

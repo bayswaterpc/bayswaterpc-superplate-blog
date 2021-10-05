@@ -3,7 +3,7 @@ import { Layout, YoutubeVideos, ReactPhotoGalleryLightbox } from "@components";
 import { Heading } from "@chakra-ui/react";
 import data from "@public/meta.json";
 
-const Media: React.FC = () => {
+const MediaPage: React.FC = () => {
     return (
         <Layout>
             <Heading as="h1" size="3xl" isTruncated padding={5}>
@@ -18,4 +18,4 @@ const Media: React.FC = () => {
     );
 };
 
-export default Media;
+export default MediaPage;

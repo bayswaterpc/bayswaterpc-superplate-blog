@@ -9,7 +9,12 @@ export const OpenSourceSection = () => {
             <Center>
                 <NextLink href={"https://github.com/bayswaterpc"} passHref>
                     <Link>
-                        <Heading as="h1" size="3xl" isTruncated>
+                        <Heading
+                            as="h1"
+                            size="3xl"
+                            isTruncated
+                            paddingBottom={5}
+                        >
                             Open Source
                         </Heading>
                     </Link>
@@ -47,7 +52,7 @@ export const OpenSourceSection = () => {
                 </Link>
             </NextLink>
             <Text>
-                A Widget withmore Waagh. Speeds up the army setup selection
+                A Widget with more Waagh. Speeds up the army setup selection
                 process in Total War Warhammer 2. Adds search and win loss
                 tracking.
             </Text>

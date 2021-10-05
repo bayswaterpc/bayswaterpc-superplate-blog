@@ -56,7 +56,7 @@ export function MainLandingCards() {
                             "Past projects and tech I use to deliver performant user expereinces."
                         }
                         imageUrl="/images/technologies3.JPG"
-                        linkOverlayUrl="/technologies"
+                        linkOverlayUrl="/tech"
                         alt="Technologies"
                     />
                     <Feature
