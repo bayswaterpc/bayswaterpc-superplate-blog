@@ -4,7 +4,6 @@ import {
     CallToActionWithAnnotation,
     MainLandingCards,
 } from "@components";
-import { SimpleGrid, Spacer, Center, Box } from "@chakra-ui/react";
 
 const Home: React.FC = () => {
     return (

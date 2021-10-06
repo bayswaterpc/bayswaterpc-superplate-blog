@@ -40,8 +40,6 @@ const BackEndList = () => {
                 <ListItem>Express</ListItem>
                 <ListItem>NestJs</ListItem>
                 <ListItem>Rocket</ListItem>
-                <ListItem>Actix</ListItem>
-                <ListItem>Flask</ListItem>
                 <ListItem>GraphQL</ListItem>
                 <ListItem>REST</ListItem>
                 <ListItem>Sqlite</ListItem>
@@ -49,6 +47,8 @@ const BackEndList = () => {
                 <ListItem>MongoDB</ListItem>
                 <ListItem>Cassandra</ListItem>
                 <ListItem>Redis</ListItem>
+                <ListItem>Tokio</ListItem>
+                <ListItem>Tower</ListItem>
             </UnorderedList>
         </Box>
     );
