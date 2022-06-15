@@ -17,22 +17,13 @@ const imageWidth = minChildWidth3Clm * 0.95;
 const imageHeight = minChildWidth3Clm / (16 / 9);
 const maxContainerWidth = minChildWidth3Clm * 3 + 50;
 
-export const CarlsonSoftwareSection = () => {
+export const ProfessionalProjectsSection = () => {
     return (
         <Box m={5}>
             <Center>
-                <NextLink href={"https://www.carlsonsw.com/"} passHref>
-                    <Link>
-                        <Heading
-                            as="h1"
-                            size="3xl"
-                            paddingBottom={5}
-                            isTruncated
-                        >
-                            Carlson Software
-                        </Heading>
-                    </Link>
-                </NextLink>
+                <Heading as="h1" size="3xl" paddingBottom={5} isTruncated>
+                    Professional Projects
+                </Heading>
             </Center>
             {/* {https://www.carlsonsw.com/product/carlson-blastops} */}
 

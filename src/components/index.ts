@@ -11,5 +11,5 @@ export { MainLandingCards } from "./MainLandingCards";
 export { ChakraNextImage } from "./ChakraNextImage";
 export { ToolChestList } from "./ToolChestList";
 export { OpenSourceSection } from "./OpenSourceSection";
-export { CarlsonSoftwareSection } from "./CarlsonSoftwareSection";
+export { ProfessionalProjectsSection } from "./ProfessionalProjectsSection";
 export { ReactPhotoGalleryLightbox } from "./ReactPhotoGalleryLightbox";

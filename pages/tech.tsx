@@ -3,7 +3,7 @@ import {
     Layout,
     ToolChestList,
     OpenSourceSection,
-    CarlsonSoftwareSection,
+    ProfessionalProjectsSection,
 } from "@components";
 import { Box } from "@chakra-ui/react";
 
@@ -11,7 +11,7 @@ const TechPage: React.FC = () => {
     return (
         <Layout>
             <Box m={5}>
-                <CarlsonSoftwareSection />
+                <ProfessionalProjectsSection />
                 <OpenSourceSection />
                 <ToolChestList />
             </Box>
