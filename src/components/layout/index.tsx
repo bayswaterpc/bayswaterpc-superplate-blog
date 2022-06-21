@@ -5,7 +5,7 @@ import { Header, Footer } from "@components";
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
-        <div>
+        <>
             <Head>
                 <title>Bayswater PC</title>
                 <meta
@@ -24,6 +24,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <Spacer />
                 <Footer />
             </Flex>
-        </div>
+        </>
     );
 }
