@@ -12,6 +12,7 @@ const ChakraNextUnwrappedImage = chakra(NextImage, {
             "placeholder",
             "blurdataurl",
             "loader ",
+            "borderRadius",
         ].includes(prop),
 });
 
@@ -41,7 +42,8 @@ const toBase64 = (str: string) =>
 export declare type ChakraNextImageProps = ImageProps & BoxProps;
 
 export const ChakraNextImage = (props: ChakraNextImageProps) => {
-    const { src, alt, width, quality, height, ...rest } = props;
+    const { src, alt, width, quality, height, borderRadius, ...rest } = props;
+    console.log("rest", src, rest);
     return (
         <Box
             pos="relative"
@@ -63,6 +65,7 @@ export const ChakraNextImage = (props: ChakraNextImageProps) => {
                 src={src}
                 alt={alt}
                 transition="all 0.2s"
+                borderRadius={borderRadius}
             />
         </Box>
     );

@@ -4,5 +4,7 @@
     "singleQuote": false,
     "printWidth": 80,
     "tabWidth": 4,
-    "endOfLine":"auto"
+    "endOfLine":"auto",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }
