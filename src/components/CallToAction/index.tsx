@@ -9,7 +9,75 @@ import {
     Icon,
     useColorModeValue,
     createIcon,
+    HStack,
 } from "@chakra-ui/react";
+import { ChakraNextImage } from "@components";
+
+export const callToActionBodyStack = () => {
+    return (
+        <Stack
+            as={Box}
+            textAlign={"center"}
+            spacing={{ base: 8, md: 14 }}
+            py={{ base: 20, md: 36 }}
+        >
+            <Heading
+                fontWeight={600}
+                fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+                lineHeight={"110%"}
+            >
+                Jacob Williams <br />
+                <Text as={"span"} color={"green.400"}>
+                    Bayswater PC
+                </Text>
+            </Heading>
+            <Text color={"gray.500"}>
+                Delivering positive and engaging digital experiences.
+            </Text>
+            <Stack
+                direction={"column"}
+                spacing={3}
+                align={"center"}
+                alignSelf={"center"}
+                position={"relative"}
+            >
+                <a href="mailto:bpc@bayswaterpc.com">
+                    <Button
+                        colorScheme={"green"}
+                        bg={"green.400"}
+                        rounded={"full"}
+                        px={6}
+                        _hover={{
+                            bg: "green.500",
+                        }}
+                    >
+                        Contact
+                    </Button>
+                </a>
+                <Box>
+                    <Icon
+                        as={Arrow}
+                        color={useColorModeValue("gray.800", "gray.300")}
+                        w={71}
+                        position={"absolute"}
+                        right={-71}
+                        top={"10px"}
+                    />
+                    <Text
+                        fontSize={"lg"}
+                        fontFamily={"Caveat"}
+                        position={"absolute"}
+                        right={"-125px"}
+                        top={"-15px"}
+                        transform={"rotate(10deg)"}
+                    >
+                        Say Hi!
+                    </Text>
+                </Box>
+            </Stack>
+        </Stack>
+    );
+};
 
 export function CallToActionWithAnnotation() {
     return (
@@ -20,74 +88,18 @@ export function CallToActionWithAnnotation() {
                     rel="stylesheet"
                 />
             </Head>
+            <Container maxW={"4xl"}>
+                <HStack spacing="24px">
+                    <ChakraNextImage
+                        src={"/images/LinkedInPhotoCropped.jpg"}
+                        alt={"Photo of Jacob Williams"}
+                        height={892 / 3}
+                        width={1020 / 3}
+                        borderRadius="full"
+                    />
 
-            <Container maxW={"3xl"}>
-                <Stack
-                    as={Box}
-                    textAlign={"center"}
-                    spacing={{ base: 8, md: 14 }}
-                    py={{ base: 20, md: 36 }}
-                >
-                    <Heading
-                        fontWeight={600}
-                        fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
-                        lineHeight={"110%"}
-                    >
-                        Jacob Williams <br />
-                        <Text as={"span"} color={"green.400"}>
-                            Bayswater PC
-                        </Text>
-                    </Heading>
-                    <Text color={"gray.500"}>
-                        Delivering delightful full stack solutions and media.
-                        Passionate about giving the best user experience and
-                        performance possible.
-                    </Text>
-                    <Stack
-                        direction={"column"}
-                        spacing={3}
-                        align={"center"}
-                        alignSelf={"center"}
-                        position={"relative"}
-                    >
-                        <a href="mailto:bpc@bayswaterpc.com">
-                            <Button
-                                colorScheme={"green"}
-                                bg={"green.400"}
-                                rounded={"full"}
-                                px={6}
-                                _hover={{
-                                    bg: "green.500",
-                                }}
-                            >
-                                Contact
-                            </Button>
-                        </a>
-                        <Box>
-                            <Icon
-                                as={Arrow}
-                                color={useColorModeValue(
-                                    "gray.800",
-                                    "gray.300",
-                                )}
-                                w={71}
-                                position={"absolute"}
-                                right={-71}
-                                top={"10px"}
-                            />
-                            <Text
-                                fontSize={"lg"}
-                                fontFamily={"Caveat"}
-                                position={"absolute"}
-                                right={"-125px"}
-                                top={"-15px"}
-                                transform={"rotate(10deg)"}
-                            >
-                                Say Hi!
-                            </Text>
-                        </Box>
-                    </Stack>
-                </Stack>
+                    {callToActionBodyStack()}
+                </HStack>
             </Container>
         </>
     );

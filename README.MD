@@ -143,22 +143,6 @@ Fast, easy and reliable testing for anything that runs in a browser.
 
 [Go To Documentation](https://docs.cypress.io/guides/overview/why-cypress.html)
 
-
-### **Docker**
-
-Docker simplifies and accelerates your workflow, while giving developers the freedom to innovate with their choice of tools, application stacks, and deployment environments for each project.
-
-[Go To Documentation](https://www.docker.com/get-started)
-
-
-### **Azure Pipelines**
-
-Azure Pipelines automatically builds and tests code projects to make them available to others. It works with just about any language or project type. Azure Pipelines combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
-
-[Go To Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/)
-
-
-
 ## License
 
 MIT
