@@ -62,7 +62,33 @@
             "embedId": "7n7pgVx7v00"
         }
     ],
+    "content_farming": [
+        {
+            "title": "Drone Shot - Part Three",
+            "embedId": "CnDx7rOJypk"
+        },
+        {
+            "title": "Drone Shot - Part Two",
+            "embedId": "def74Em_IKk"
+        },
+        {
+            "title": "Drone Shot - Part One",
+            "embedId": "8OrcU0oob3w"
+        },
+        {
+            "title": "Christmas 2021 Dark Timeline",
+            "embedId": "N3lAxIaTUio"
+        },
+        {
+            "title": "Christmas 2021 Bright Timeline",
+            "embedId": "wkB8ryafa0Q"
+        }
+    ],
     "skyfarming_videos": [
+        {
+            "title": "Northern Lights Sound and Light Show - Winter 2021",
+            "embedId": "wJCvrYo2BzU"
+        },
         {
             "title": "Ottawa Spring Drones and Tulips",
             "embedId": "pROes3xqCRA"
@@ -77,6 +103,79 @@
         }
     ],
     "photoGallery": [
+        {
+            "src": "/images/photos/bike_tulip.JPG",
+            "alt": "Tulip and Bike",
+            "width": 1369,
+            "height": 2048
+        },
+        {
+            "src": "/images/photos/fireworks_dows.jpg",
+            "alt": "Fireworks over Dow's Lake",
+            "width": 1080,
+            "height": 1616
+        },
+        {
+            "src": "/images/photos/through_bridge.JPG",
+            "alt": "Montreal Botanical Gardens",
+            "width": 2048,
+            "height": 1369
+        },
+        {
+            "src": "/images/photos/baby_duck.JPG",
+            "alt": "Baby Ducks Landscape",
+            "width": 2048,
+            "height": 1519
+        },
+        {
+            "src": "/images/photos/mom_duck.JPG",
+            "alt": "Baby Ducks and Mom",
+            "width": 1369,
+            "height": 2048
+        },
+        {
+            "src": "/images/photos/mural_art.JPG",
+            "alt": "Murals on Sommerset",
+            "width": 2048,
+            "height": 1369
+        },
+        {
+            "src": "/images/photos/war_meusem.JPG",
+            "alt": "War Memorial",
+            "width": 2048,
+            "height": 1369
+        },
+        {
+            "src": "/images/photos/pink_gatineau.JPG",
+            "alt": "Pink Gatineau",
+            "width": 2048,
+            "height": 1370
+        },
+        {
+            "src": "/images/photos/sommerset.JPG",
+            "alt": "Sommerset Portrait",
+            "width": 1369,
+            "height": 2048
+        },
+        {
+            "src": "/images/photos/claridge.JPG",
+            "alt": "Claridge Portrait",
+            "width": 1355,
+            "height": 2048
+        },
+        {
+            "src": "/images/photos/two_kids.JPEG",
+            "alt": "Two Kids",
+            "width": 2048,
+            "height": 1369
+        },
+        {
+            "src": "/images/photos/chauderie.JPG",
+            "alt": "Claridge Portrait",
+            "width": 2048,
+            "height": 1369
+        },
+
         {
             "src": "/images/photos/botanicalNightPhoto.JPG",
             "alt": "Montreal Botanical Gardens",

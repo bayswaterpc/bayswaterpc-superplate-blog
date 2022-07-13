@@ -9,7 +9,12 @@ const MediaPage: React.FC = () => {
             <Heading as="h1" size="3xl" isTruncated padding={5}>
                 Videography
             </Heading>
-            {YoutubeVideos([...data.skyfarming_videos, ...data.music_videos])}
+            {}
+            {YoutubeVideos([
+                ...data.content_farming,
+                ...data.skyfarming_videos,
+                ...data.music_videos,
+            ])}
             <Heading as="h1" size="3xl" isTruncated padding={5}>
                 Photography
             </Heading>
