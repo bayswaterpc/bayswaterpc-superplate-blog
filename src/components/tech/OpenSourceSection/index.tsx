@@ -107,6 +107,22 @@ export const OpenSourceSection = () => {
                 to build and deploy a fully featured media rich website with
                 Typescript, React, Chakra UI, and Vercel.
             </Text>
+
+            <NextLink
+                href={
+                    "https://github.com/bayswaterpc/bayswaterpc-superplate-blog"
+                }
+                passHref
+            >
+                <Link>
+                    <Heading>Reetcode</Heading>
+                </Link>
+            </NextLink>
+
+            <Text>
+                Platform for taking your rust leetcode practice offline.
+                Includes solutions and templates for your own practice.
+            </Text>
         </Box>
     );
 };
