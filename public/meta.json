@@ -104,6 +104,18 @@
     ],
     "photoGallery": [
         {
+            "src": "/images/photos/elk_in_water.jpeg",
+            "alt": "Brown Bear Cub in Tree",
+            "width": 1369,
+            "height": 2048
+        },
+        {
+            "src": "/images/photos/brown_bear_in_tree.jpeg",
+            "alt": "Elk in Water",
+            "width": 1369,
+            "height": 2048
+        },
+        {
             "src": "/images/photos/bike_tulip.jpg",
             "alt": "Tulip and Bike",
             "width": 1369,
@@ -170,17 +182,29 @@
             "height": 1369
         },
         {
+            "src": "/images/photos/yellowTulips.JPG",
+            "alt": "Yellow Tulips",
+            "width": 2832,
+            "height": 4240
+        },
+        {
             "src": "/images/photos/chauderie.jpg",
-            "alt": "Claridge Portrait",
+            "alt": "Chauderie Falls Apartments",
             "width": 2048,
             "height": 1369
         },
 
         {
             "src": "/images/photos/botanicalNightPhoto.JPG",
-            "alt": "Montreal Botanical Gardens",
+            "alt": "Tiger at Lantern Festival Montreal Botanical Gardens",
             "width": 2080,
             "height": 3336
+        },
+        {
+            "src": "/images/photos/sunset.JPG",
+            "alt": "Sunset",
+            "width": 2784,
+            "height": 2348
         },
         {
             "src": "/images/photos/chessPortrait.JPG",
@@ -213,22 +237,10 @@
             "height": 1000
         },
         {
-            "src": "/images/photos/sunset.JPG",
-            "alt": "Sunset",
-            "width": 2784,
-            "height": 2348
-        },
-        {
             "src": "/images/photos/winterBog.jpg",
             "alt": "Winter Bog",
             "width": 2048,
             "height": 1240
-        },
-        {
-            "src": "/images/photos/yellowTulips.JPG",
-            "alt": "Yellow Tulips",
-            "width": 2832,
-            "height": 4240
         }
     ]
 }
