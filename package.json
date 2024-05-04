@@ -3,9 +3,6 @@
     "name": "bayswaterpc-superplate-blog",
     "version": "0.1.0",
     "scripts": {
-        "apollo:download-schema": "apollo client:download-schema schema.graphql",
-        "apollo:generate-types": "rm -rf __generated__ && apollo client:codegen --target typescript --outputFlat && graphql-codegen",
-        "apollo:sync": "npm run apollo:download-schema && npm run apollo:generate-types",
         "build": "next build",
         "build:analyze": "npx cross-env ANALYZE=true yarn build",
         "codegen:generate": "graphql-codegen",
@@ -20,7 +17,6 @@
         "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\""
     },
     "dependencies": {
-        "@apollo/client": "^3.3.7",
         "@chakra-ui/icons": "^1.0.15",
         "@chakra-ui/react": "^1.1.4",
         "@emotion/react": "^11.1.4",
@@ -59,7 +55,6 @@
         "@types/react-dom": "^17.0.0",
         "@typescript-eslint/eslint-plugin": "^4.9.1",
         "@typescript-eslint/parser": "^4.9.1",
-        "apollo": "^2.32.1",
         "cypress": "^6.2.1",
         "dotenv": "^8.2.0",
         "eslint": "^7.15.0",

@@ -7,7 +7,6 @@ import {
 
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "@definitions/chakra/theme";
-import { MockedProvider } from "@apollo/client/testing";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { RootStoreProvider } from "@mobx";
 
@@ -25,11 +24,9 @@ export const AllTheProviders = ({ children }: any) => {
     return (
         <>
             <ChakraProvider theme={theme}>
-                <MockedProvider mocks={[]} addTypename={false}>
-                    <QueryClientProvider client={queryClient}>
-                        <RootStoreProvider>{children}</RootStoreProvider>
-                    </QueryClientProvider>
-                </MockedProvider>
+                <QueryClientProvider client={queryClient}>
+                    <RootStoreProvider>{children}</RootStoreProvider>
+                </QueryClientProvider>
             </ChakraProvider>
         </>
     );
